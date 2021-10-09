@@ -1,0 +1,24 @@
+<div class="empty"></div>
+<mat-card>
+    <mat-card-title>Novo Registro</mat-card-title>
+    <form action="">
+        <mat-form-field>
+            <mat-label>Selecione o mês</mat-label>
+             <mat-select [(ngModel)]="register.month" name="month">
+                <mat-option *ngFor="let month of months" [value]="month.value">
+                {{month.viewValue}}
+                </mat-option>
+            </mat-select>
+            <!-- <input type="text" matInput placeholder="Mẽs" [(ngModel)]="register.month" name="month"> -->
+        </mat-form-field>
+        <mat-form-field>
+            <input type="number" matInput placeholder="Número de casos" [(ngModel)]="register.numberOfCases" name="numberOfCases">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="newRegister()">
+        Salvar Registro <i class="material-icons">check</i>
+    </button>
+    <button mat-raised-button color="warn" (click)="cancel()">
+        Cancelar <i class="material-icons">close</i>
+    </button>
+</mat-card>

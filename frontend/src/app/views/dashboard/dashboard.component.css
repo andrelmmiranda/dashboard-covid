@@ -1,0 +1,9 @@
+.dashboardScreen{
+    margin-top: 64px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}

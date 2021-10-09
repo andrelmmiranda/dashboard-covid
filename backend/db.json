@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "month": "Janeiro",
+      "numberOfCases": 500
+    },
+    {
+      "month": "Fevereiro",
+      "numberOfCases": 238,
+      "id": 2
+    },
+    {
+      "month": "Março",
+      "numberOfCases": 352,
+      "id": 3
+    },
+    {
+      "month": "Abril",
+      "numberOfCases": 398,
+      "id": 4
+    },
+    {
+      "month": "Maio",
+      "numberOfCases": 426,
+      "id": 5
+    }
+  ]
+}

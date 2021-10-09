@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --light-red: rgb(227, 94, 107);
+    --dark-red: rgb(194, 27, 27);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.empty{
+    display: block;
+    background-color: red;
+    height: 48px;
+}
